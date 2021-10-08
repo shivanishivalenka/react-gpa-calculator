@@ -39,7 +39,7 @@ const Calculator = (props) => {
                       setGrades({ ...grades, ...newGr });
                     }}
                   >
-                    <option value="" disabled selected>Select your option</option>
+                    <option value="" disabled selected></option>
                     <option value="10">O</option>
                     <option value="9">A+</option>
                     <option value="8">A</option>
